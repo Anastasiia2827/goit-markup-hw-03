@@ -280,11 +280,11 @@ display: flex;
 
 .team-item {
   width: ((100%-30 * 3)/4);
-  margin-right: 30px;
 }
 
-.team-item:nth-child(4) {
-  margin-right: 0px;
+ .team-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+} */
 
 .team-subject {
   font-weight: 500;
